@@ -1,0 +1,200 @@
+{
+  "_id": {
+    "$oid": "6079fe8a73f22e153a241802"
+  },
+  "Title": "Silence of the Lambs",
+  "Description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+  "Genre": {
+    "Name": "Thriller",
+    "Description": "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+  },
+  "Director": {
+    "Name": "Jonathan Demme",
+    "Bio": "Robert Jonathan Demme was an American director, producer, and screenwriter.",
+    "Birth": "1944",
+    "Death": "2017"
+  },
+  "ImagePath": "silenceofthelambs.png",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "60840f6773aa3fb4ec31f7fe"
+  },
+  "Title": "Silence of the Lambs",
+  "Description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+  "Genre": {
+    "Name": "Thriller",
+    "Description": "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+  },
+  "Director": {
+    "Name": "Jonathan Demme",
+    "Bio": "Robert Jonathan Demme was an American director, producer, and screenwriter.",
+    "Birth": "1944",
+    "Death": "2017"
+  },
+  "ImagePath": "silenceofthelambs.png",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "608411a373aa3fb4ec31f7ff"
+  },
+  "Title": "Jumanji: The Next Level",
+  "description": "In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world/s most dangerous game.",
+  "Genre": {
+    "Name": "adventure",
+    "Description": "Adventure films are a genre of film whose plots feature elements of travel. They typically involve protagonists who must leave their home or place of comfort and go to far away lands to fulfill a goal. Settings play an important role in adventure films, sometimes as big as the characters themselves."
+  },
+  "Director": {
+    "name": "Jake Kasdan",
+    "bio": "Jacob \"Jake\" Kasdan (born October 28, 1974) is an American film and television director, producer, screenwriter, and actor",
+    "Birth": "1974"
+  },
+  "ImagePath": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxj0M5vbvyeQ8kxcUoRdHMyIjtsQ410YILzsggthfw7GRryQXP ",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "60841bc073aa3fb4ec31f800"
+  },
+  "title": "Black Panther",
+  "description": "Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name. ... In Black Panther, T/Challa is crowned king of Wakanda following his father/s death, but he is challenged by Killmonger who plans to abandon the country/s isolationist policies and begin a global revolution",
+  "Genre": {
+    "Action": "Action",
+    "Description": "Action film is a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence, extended fighting, physical feats, rescues and frantic chases."
+  },
+  "Director": {
+    "name": "Ryan Coogler",
+    "bio": "Ryan Kyle Coogler is an American film director, producer, and screenwriter. His first feature film, Fruitvale Station, won the top audience and grand jury awards in the U.S. dramatic competition at the 2013 Sundance Film Festival.",
+    "Birth": "1986"
+  },
+  "ImagePath": "https://static.wikia.nocookie.net/disney/images/9/9d/Black_Panther_SDCC_2017_Poster.jpg/revision/latest?cb=20170723022453",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "60841cdc73aa3fb4ec31f801"
+  },
+  "title": "Avengers Assemble",
+  "description": "When trouble-making Asgardian reject Loki (Hiddleston) launches an attack on Earth, SHIELD boss Nick Fury (Jackson) decides it/s time to call in the big guns, and gathers Captain America (Evans), Bruce Banner (Ruffalo), Thor (Hemsworth) and even Iron Man (Downey Jr.) together in one elite fighting team.",
+  "Genre": {
+    "Name": "Action",
+    "Description": "Action film is a film genre in which the protagonist or protagonists are thrust into a series of events that typically include violence, extended fighting, physical feats, rescues and frantic chases."
+  },
+  "Director": {
+    "name": "Joss Whedon",
+    "bio": "Joseph Hill Whedon is an American film director, producer, writer, and composer. He is the founder of Mutant Enemy Productions, he co-founded Bellwether Pictures, and is best known as the creator of several television series. These include Buffy the Vampire Slayer, Angel, Firefly, Dollhouse, and Agents of S.H.I.E.L.D",
+    "Birth": "1964"
+  },
+  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d0/Theavengersnewposter.jpg/revision/latest?cb=20140224212619",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "6084210973aa3fb4ec31f802"
+  },
+  "title": "Wanda Vision",
+  "description": "WandaVision is an American television miniseries created by Jac Schaeffer for the streaming service Disney+, based on the Marvel Comics characters Wanda Maximoff / Scarlet Witch and Vision. ... WandaVision premiered with its first two episodes on January 15, 2021, and ran for nine episodes, concluding on March 5.",
+  "Genre": {
+    "Name": "Drama",
+    "Description": "In film and television, drama is a category of narrative fiction (or semi-fiction) intended to be more serious than humorous in tone. ... These terms tend to indicate a particular setting or subject-matter, or else they qualify the otherwise serious tone of a drama with elements that encourage a broader range of moods."
+  },
+  "Director": {
+    "Name": "Jac Schaeffer",
+    "bio": "Jacqueline Schaeffer (born 1978) is an American film director, producer and screenwriter known for her 2009 feature film debut TiMER and for creating the TV series WandaVision set in the Marvel Cinematic Universe, for which she has also co-written Captain Marvel and the upcoming Black Widow.",
+    "Birth": "1978"
+  },
+  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d0/Theavengersnewposter.jpg/revision/latest?cb=20140224212619",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "608422b973aa3fb4ec31f803"
+  },
+  "title": "The Queen/s Gambit",
+  "description": "The Queen/s Gambit follows the life of an orphan chess prodigy, Elizabeth Harmon, during her quest to become the world/s greatest chess player while struggling with emotional problems, drugs and alcohol dependency. The title of the series refers to a chess opening of the same name.",
+  "Genre": {
+    "Name": "Drama",
+    "Description": "In film and television, drama is a category of narrative fiction (or semi-fiction) intended to be more serious than humorous in tone. ... These terms tend to indicate a particular setting or subject-matter, or else they qualify the otherwise serious tone of a drama with elements that encourage a broader range of moods."
+  },
+  "Director": {
+    "Name": "Scott Frank",
+    "bio": "A. Scott Frank (born March 10, 1960) is an American screenwriter, film director, and author. ... Known as \"one of the most reliable and highly-paid screenwriters in the business\", Frank received two Academy Award nominations for Best Adapted Screenplay for for Out of Sight (1998) and Logan (2017).",
+    "Birth": "1950"
+  },
+  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/11/WandaVision_Poster.jpg/revision/latest?cb=20200921011227",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "608423b073aa3fb4ec31f804"
+  },
+  "title": "Limitless",
+  "description": "“Limitless” is about Eddie/s adventures after his ex-brother-in-law gives him a pill that suddenly puts his entire brain online. He finishes his novel at typing speed. He wins at poker, invests in the market, and runs it up to millions. He fascinates a woman who had rejected him as a loser.",
+  "Genre": {
+    "Name": "Sci-Fi",
+    "Description": "Science fiction (or sci-fi) is a film genre that uses speculative, fictional science-based depictions of phenomena that are not fully accepted by mainstream science, such as extraterrestrial lifeforms, alien worlds, extrasensory perception and time travel, along with futuristic elements such as spacecraft, robots, ..."
+  },
+  "Director": {
+    "name": "Neil Burger",
+    "bio": "Neil Norman Burger was born in 1963 in Connecticut in the United States. After graduating from Yale University with a degree in fine arts, Burger became involved with experimental film in the 1980s and went on to direct music videos for such alternative artists as the Meat Puppets.",
+    "Birth": "1963"
+  },
+  "ImagePath": "https://images-na.ssl-images-amazon.com/images/I/81WaeHtrN1L._SL1500_.jpg",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "6084259373aa3fb4ec31f805"
+  },
+  "title": "Captain America: Civil War",
+  "description": "In Captain America: Civil War, disagreement over international oversight of the Avengers fractures the team into two opposing factions—one led by Steve Rogers and the other by Tony Stark.",
+  "Genre": {
+    "Name": "Sci-Fi",
+    "Description": "Science fiction (or sci-fi) is a film genre that uses speculative, fictional science-based depictions of phenomena that are not fully accepted by mainstream science, such as extraterrestrial lifeforms, alien worlds, extrasensory perception and time travel, along with futuristic elements such as spacecraft, robots, ..."
+  },
+  "Director": {
+    "name": "Anthony Russo",
+    "bio": "Anthony Russo was born on February 3, 1970 in Cleveland, Ohio, USA as Anthony J. Russo. He is a producer and director, known for Avengers: Endgame (2019), Captain America: The Winter Soldier (2014) and Avengers: Infinity War (2018).",
+    "Birth": "1970"
+  },
+  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/5c/Civil_War_Final_Poster.jpg/revision/latest?cb=20160310172110",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "6084266673aa3fb4ec31f806"
+  },
+  "title": "Coming to America",
+  "description": "An extremely pampered African prince travels to Queens, New York, and goes undercover to find a wife that he can respect for her intelligence and strong will.",
+  "Genre": {
+    "Name": "Romance",
+    "Descritpion": "Romance films or romance movies are romantic love stories recorded in visual media for broadcast in theaters and on TV that focus on passion, emotion, and the affectionate romantic involvement of the main characters and the journey that their love takes them through dating, courtship or marriage."
+  },
+  "Director": {
+    "Name": "John Landis",
+    "bio": "John Landis began his career in the mail room of 20th Century-Fox. A high-school dropout, 18-year-old Landis made his way to Yugoslavia to work as a production assistant on Kellys Heroes (1970). Remaining in Europe, Landis found work as an actor, extra and stuntman in many of the Spanish/Italian \"spaghetti\" westerns.",
+    "Birth": " 1950"
+  },
+  "ImagePath": "https://flxt.tmsimg.com/assets/p10915_p_v13_am.jpg",
+  "Featured": true
+}
+{
+  "_id": {
+    "$oid": "608427d573aa3fb4ec31f807"
+  },
+  "title": "Avangers: Age Of Ultron",
+  "description": "The unexpectedly sentient Ultron, believing he must eradicate humanity to save Earth, eliminates Stark/s A.I. J.A.R.V.I.S. and attacks the Avengers at their headquarters. Escaping with the scepter, Ultron uses the resources in Strucker/s Sokovia base to upgrade his rudimentary body and build an army of robot drones.",
+  "Genre": {
+    "Name": "Family",
+    "Description": "Family films versus children's films — A children's film, or family film, is a film genre that contains children or relates to them in the context of home and family. Children's films are made specifically for children and not necessarily for the general audience, while family films are made for a wider appeal with a general audience in mind."
+  },
+  "Director": {
+    "name": "Joss Whedon",
+    "bio": "Joseph Hill Whedon is an American film director, producer, writer, and composer. He is the founder of Mutant Enemy Productions, he co-founded Bellwether Pictures, and is best known as the creator of several television series. These include Buffy the Vampire Slayer, Angel, Firefly, Dollhouse, and Agents of S.H.I.E.L.D",
+    "Birth": "1964"
+  },
+  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c7/Avengers_Age_Of_Ultron-poster1.jpg/revision/latest?cb=20150224202250",
+  "Featured": true
+}

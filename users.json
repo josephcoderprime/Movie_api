@@ -1,0 +1,48 @@
+{
+  "_id": {
+    "$oid": "60844b8773aa3fb4ec31f808"
+  },
+  "Username": "scotty archer",
+  "Password": "1234",
+  "Email": "scotty@example.com",
+  "Birthday": {
+    "$date": "1985-02-19T00:00:00Z"
+  },
+  "FavoriteMovies": []
+}
+{
+  "_id": {
+    "$oid": "60844c9573aa3fb4ec31f809"
+  },
+  "Username": "laura maxwell",
+  "Password": "2345",
+  "Email": "laura@example.com",
+  "Birtdhay": {
+    "$date": "1986-04-18T00:00:00Z"
+  },
+  "FavoriteMovies": []
+}
+{
+  "_id": {
+    "$oid": "60844d0373aa3fb4ec31f80a"
+  },
+  "Username": "JosephCoderPrime",
+  "Password": "4567",
+  "Email": "Joseph@example.com",
+  "Birtdhay": {
+    "$date": "1994-03-31T00:00:00Z"
+  },
+  "FavoriteMovies": []
+}
+{
+  "_id": {
+    "$oid": "60844d5773aa3fb4ec31f80b"
+  },
+  "Username": "timmy turner",
+  "Password": "7890",
+  "Email": "timmy@example.com",
+  "Birtdhay": {
+    "$date": "1992-03-21T00:00:00Z"
+  },
+  "FavoriteMovies": []
+}
