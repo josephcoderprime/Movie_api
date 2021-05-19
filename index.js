@@ -36,7 +36,7 @@ app.use(
 );
 
 
-let allowedOrigins = ['http://localhost:8080', 'https://myflixofficial.herokuapp.com,', 'http://localhost:1234'];
+let allowedOrigins = ['http://localhost:8080', 'https://mighty-ridge-80885.herokuapp.com,', 'http://localhost:1234'];
 
 
 app.use(cors({
