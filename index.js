@@ -1,12 +1,16 @@
-const
-  express = require('express'),
+const express = require('express'),
   morgan = require('morgan'),
-  bodyParser = require('body-parser'),
-  mongoose = require('mongoose'),
-  uuid = require('uuid');
+  bodyParser = require('body-parser');
 
-const { check, validationResult } = require('express-validator');
+
+// uuid = require('uuid');
+const app = express();
+const mongoose = require('mongoose');
 const Models = require('./models.js');
+const passport = require('passport');
+require('./passport');
+const cors = require('cors');
+const { check, validationResult } = require('express-validator');
 
 
 const Movies = Models.Movie;
