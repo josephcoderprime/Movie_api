@@ -19,7 +19,7 @@ const Genres = Models.Genre;
 const Directors = Models.Director;
 
 const CONNECTION_URI = process.env.CONNECTION_URI || 'mongodb://localhost:27017/myFlixDatabase';
-mongoose.connect(CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
+mongoose.connect(CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true, });
 
 const app = express();
 
