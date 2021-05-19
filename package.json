@@ -26,6 +26,7 @@
     "isarray": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
     "kareem": "^2.3.2",
+    "lodash": "^4.17.21",
     "media-typer": "^0.3.0",
     "memory-pager": "^1.5.0",
     "mime-db": "^1.47.0",
