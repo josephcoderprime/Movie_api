@@ -1,43 +1,5 @@
 {
   "_id": {
-    "$oid": "6079fe8a73f22e153a241802"
-  },
-  "Title": "Silence of the Lambs",
-  "Description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
-  "Genre": {
-    "Name": "Thriller",
-    "Description": "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
-  },
-  "Director": {
-    "Name": "Jonathan Demme",
-    "Bio": "Robert Jonathan Demme was an American director, producer, and screenwriter.",
-    "Birth": "1944",
-    "Death": "2017"
-  },
-  "ImagePath": "silenceofthelambs.png",
-  "Featured": true
-}
-{
-  "_id": {
-    "$oid": "60840f6773aa3fb4ec31f7fe"
-  },
-  "Title": "Silence of the Lambs",
-  "Description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
-  "Genre": {
-    "Name": "Thriller",
-    "Description": "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
-  },
-  "Director": {
-    "Name": "Jonathan Demme",
-    "Bio": "Robert Jonathan Demme was an American director, producer, and screenwriter.",
-    "Birth": "1944",
-    "Death": "2017"
-  },
-  "ImagePath": "silenceofthelambs.png",
-  "Featured": true
-}
-{
-  "_id": {
     "$oid": "608411a373aa3fb4ec31f7ff"
   },
   "Title": "Jumanji: The Next Level",
@@ -69,7 +31,7 @@
     "bio": "Ryan Kyle Coogler is an American film director, producer, and screenwriter. His first feature film, Fruitvale Station, won the top audience and grand jury awards in the U.S. dramatic competition at the 2013 Sundance Film Festival.",
     "Birth": "1986"
   },
-  "ImagePath": "https://static.wikia.nocookie.net/disney/images/9/9d/Black_Panther_SDCC_2017_Poster.jpg/revision/latest?cb=20170723022453",
+  "ImagePath": "https://cdn.shopify.com/s/files/1/1057/4964/products/black-panther-vintage-movie-poster-original-1-sheet-27x41.jpeg?v=1556571865",
   "Featured": true
 }
 {
@@ -87,7 +49,7 @@
     "bio": "Joseph Hill Whedon is an American film director, producer, writer, and composer. He is the founder of Mutant Enemy Productions, he co-founded Bellwether Pictures, and is best known as the creator of several television series. These include Buffy the Vampire Slayer, Angel, Firefly, Dollhouse, and Agents of S.H.I.E.L.D",
     "Birth": "1964"
   },
-  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d0/Theavengersnewposter.jpg/revision/latest?cb=20140224212619",
+  "ImagePath": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
   "Featured": true
 }
 {
@@ -105,7 +67,7 @@
     "bio": "Jacqueline Schaeffer (born 1978) is an American film director, producer and screenwriter known for her 2009 feature film debut TiMER and for creating the TV series WandaVision set in the Marvel Cinematic Universe, for which she has also co-written Captain Marvel and the upcoming Black Widow.",
     "Birth": "1978"
   },
-  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d0/Theavengersnewposter.jpg/revision/latest?cb=20140224212619",
+  "ImagePath": "https://thedirect.s3.amazonaws.com/media/photos/EtJGaDLXMAMTGKy.jpg",
   "Featured": true
 }
 {
@@ -123,7 +85,7 @@
     "bio": "A. Scott Frank (born March 10, 1960) is an American screenwriter, film director, and author. ... Known as \"one of the most reliable and highly-paid screenwriters in the business\", Frank received two Academy Award nominations for Best Adapted Screenplay for for Out of Sight (1998) and Logan (2017).",
     "Birth": "1950"
   },
-  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/11/WandaVision_Poster.jpg/revision/latest?cb=20200921011227",
+  "ImagePath": "https://m.media-amazon.com/images/M/MV5BM2EwMmRhMmUtMzBmMS00ZDQ3LTg4OGEtNjlkODk3ZTMxMmJlXkEyXkFqcGdeQXVyMjM5ODk1NDU@._V1_.jpg",
   "Featured": true
 }
 {
@@ -159,7 +121,7 @@
     "bio": "Anthony Russo was born on February 3, 1970 in Cleveland, Ohio, USA as Anthony J. Russo. He is a producer and director, known for Avengers: Endgame (2019), Captain America: The Winter Soldier (2014) and Avengers: Infinity War (2018).",
     "Birth": "1970"
   },
-  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/5c/Civil_War_Final_Poster.jpg/revision/latest?cb=20160310172110",
+  "ImagePath": "https://images-na.ssl-images-amazon.com/images/I/A1pZt1EaeFL._AC_SL1500_.jpg",
   "Featured": true
 }
 {
@@ -195,6 +157,6 @@
     "bio": "Joseph Hill Whedon is an American film director, producer, writer, and composer. He is the founder of Mutant Enemy Productions, he co-founded Bellwether Pictures, and is best known as the creator of several television series. These include Buffy the Vampire Slayer, Angel, Firefly, Dollhouse, and Agents of S.H.I.E.L.D",
     "Birth": "1964"
   },
-  "ImagePath": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c7/Avengers_Age_Of_Ultron-poster1.jpg/revision/latest?cb=20150224202250",
+  "ImagePath": "https://cultureposters.com/wp-content/uploads/2019/04/avengers-2.jpg",
   "Featured": true
 }
