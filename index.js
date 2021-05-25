@@ -26,7 +26,7 @@ let auth = require('./auth')(app)
 const passport = require('passport');
 require('./passport');
 
-let allowedOrigins = ['http://localhost:8080', 'https://flixofficial.herokuapp.com/movies', 'http://localhost:1234'];
+let allowedOrigins = ['http://localhost:8080', 'https://flixofficial.herokuapp.com/', 'http://localhost:1234'];
 
 
 app.use(cors({
@@ -51,10 +51,20 @@ app.get('/', (req, res) => {
 });
 
 //GET request to have a list of ALL movies in the Database
-app.get('/movies', (req, res) => {
-  res.json(movies);
-});
-
+app.get(
+  '/movies',
+  passport.authenticate('jwt', { session: false }),
+  (req, res) => {
+    Movies.find()
+      .then(function (movies) {
+        res.status(200).json(movies);
+      })
+      .catch((err) => {
+        console.error(err);
+        res.status(500).send('Error: ' + err);
+      });
+  }
+);
 //GET request to get information about a certain movie by title
 app.get('/movies/:Title', passport.authenticate('jwt', { session: false }), (req, res) => {
   Movies.findOne({ Title: req.params.Title }).then((movie) => {
