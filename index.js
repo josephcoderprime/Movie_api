@@ -52,12 +52,7 @@ app.get('/', (req, res) => {
 
 //GET request to have a list of ALL movies in the Database
 app.get('/movies', (req, res) => {
-  Movies.find().then((movies) => {
-    res.status(201).json(movies);
-  }).catch((err) => {
-    console.error(err);
-    res.status(500).send('Error: ' + err)
-  });
+  res.json(movies);
 });
 
 //GET request to get information about a certain movie by title
