@@ -65,9 +65,23 @@ app.get(
       });
   }
 );
-
 //GET request to get a list of ALL users in the Database
-app.get('/users', passport.authenticate('jwt', { session: false }), (req, res) => {
+app.get('/users', passport.authenticate('jwt', { session: false }), function (
+  req,
+  res
+) {
+  Users.find()
+    .then(function (users) {
+      res.status(201).json(users);
+    })
+    .catch(function (err) {
+      console.error(err);
+      res.status(500).send('Error: ' + err);
+    });
+});
+
+//GET a user by username
+app.get('/users/:Username', passport.authenticate('jwt', { session: false }), (req, res) => {
   Users.find()
     .then((users) => {
       res.status(200).json(users);
@@ -179,7 +193,7 @@ app.put('/users/:Username', passport.authenticate('jwt', { session: false }),
   });
 
 //POST request to add a movie (by movieID) to a user's favourite movie list.
-app.post('/users/:Username/favourites/:MovieID', passport.authenticate('jwt', { session: false }), (req, res) => {
+app.post('/users/:Username/Movies/:MovieID', passport.authenticate('jwt', { session: false }), (req, res) => {
   Users.findOneAndUpdate({ Username: req.params.Username },
     { $push: { FavoriteMovies: req.params.MovieID } },
     { new: true },
@@ -194,7 +208,7 @@ app.post('/users/:Username/favourites/:MovieID', passport.authenticate('jwt', { 
 });
 
 //DELETE request to remove a movie (by movieID) from a user's favourite movie list.
-app.delete('/users/:Username/favourites/:MovieID', passport.authenticate('jwt', { session: false }), (req, res) => {
+app.delete('/users/:Username/Movies/:MovieID', passport.authenticate('jwt', { session: false }), (req, res) => {
   Users.findOneAndUpdate({ Username: req.params.Username },
     { $pull: { FavoriteMovies: req.params.MovieID } },
     { new: true },
