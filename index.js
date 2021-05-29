@@ -47,7 +47,7 @@ app.use(express.static('public'));
 
 
 app.get('/', (req, res) => {
-  res.send('Welcome to FlixInfo!')
+  res.send('index.html')
 });
 
 //GET request to have a list of ALL movies in the Database
@@ -65,6 +65,20 @@ app.get(
       });
   }
 );
+
+//GET request to get a list of ALL users in the Database
+app.get('/users', passport.authenticate('jwt', { session: false }), (req, res) => {
+  Users.find()
+    .then((users) => {
+      res.status(200).json(users);
+    })
+    .catch((err) => {
+      console.error(err);
+      res.status(500).send('Error: ' + err);
+    });
+});
+
+
 //GET request to get information about a certain movie by title
 app.get('/movies/:Title', passport.authenticate('jwt', { session: false }), (req, res) => {
   Movies.findOne({ Title: req.params.Title }).then((movie) => {
