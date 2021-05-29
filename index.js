@@ -47,7 +47,7 @@ app.use(express.static('public'));
 
 
 app.get('/', (req, res) => {
-  res.send('index.html')
+  res.send('Welcome to FlixInfo!')
 });
 
 //GET request to have a list of ALL movies in the Database
