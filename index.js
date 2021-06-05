@@ -26,7 +26,7 @@ let auth = require('./auth')(app)
 const passport = require('passport');
 require('./passport');
 
-let allowedOrigins = ['http://localhost:8080', 'https://flixofficial.herokuapp.com/', 'http://localhost:1234', 'https://myflixofficial.netlify.app'];
+let allowedOrigins = ['http://localhost:8080', 'https://flixofficial.herokuapp.com/', 'http://localhost:1234', 'https://myflixofficial.netlify.app', 'https://vorl0xvb54.execute-api.eu-central-1.amazonaws.com/dev/api/get-auth-url', 'https://vorl0xvb54.execute-api.eu-central-1.amazonaws.com/dev/api/token/{code}'];
 
 
 app.use(cors({
