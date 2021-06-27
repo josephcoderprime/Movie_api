@@ -26,7 +26,7 @@ let auth = require('./auth')(app)
 const passport = require('passport');
 require('./passport');
 
-let allowedOrigins = ['http://localhost:8080', 'https://myflixofficial.netlify.app', 'http://localhost:1234', 'https://myflixofficial.netlify.app', 'http://localhost:4200', 'https://josephcoderprime.github.io/myFlix-Angular-client/', 'https://vorl0xvb54.execute-api.eu-central-1.amazonaws.com/dev/api/get-auth-url', 'https://vorl0xvb54.execute-api.eu-central-1.amazonaws.com/dev/api/token'];
+let allowedOrigins = ['http://localhost:8080', 'https://myflixofficial.netlify.app', 'http://localhost:1234', 'https://myflixofficial.netlify.app', 'http://localhost:4200', 'https://josephcoderprime.github.io', 'https://vorl0xvb54.execute-api.eu-central-1.amazonaws.com/dev/api/get-auth-url', 'https://vorl0xvb54.execute-api.eu-central-1.amazonaws.com/dev/api/token'];
 
 
 app.use(cors({
