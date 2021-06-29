@@ -30,7 +30,7 @@ single movie by title to the user
 * body-parser
 * cors
 
-# The API Documentation, alternatively it can be found at: https://flixofficial.herokuapp.com/documentation.html
+# The API Documentation, alternatively it can be found at: ### https://flixofficial.herokuapp.com/documentation.html
 
 <body>
   <div>
