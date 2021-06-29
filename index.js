@@ -53,7 +53,7 @@ app.use(express.static('public'));
  */
 app.get("/", (req, res) => {
   res.send(
-    "Welcome to myFlix, my Movie API! To access the API, please use its front-end found at: https://movie-api-client.netlify.app/. Alternatively, feel free to access the documentation found at: https://movie-api-on-heroku.herokuapp.com/documentation.html. "
+    "Welcome to myFlix, my Movie API!"
   );
 });
 
